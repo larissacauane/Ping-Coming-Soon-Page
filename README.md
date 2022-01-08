@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 
 ## 💻 Projeto
-Este projeto é um desafio do <a href=https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da">Front End Mentor</a>. É possível acessar o projeto através <a href="https://confident-ptolemy-3ade63.netlify.app/">deste link.</a> 
+Este projeto é um desafio do <a href="https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da">Front End Mentor</a>. É possível acessar o projeto através <a href="https://confident-ptolemy-3ade63.netlify.app/">deste link.</a> 
 
 
 ## ⚙ Como executar
