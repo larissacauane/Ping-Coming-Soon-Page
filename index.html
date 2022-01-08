@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <script src="https://kit.fontawesome.com/6a2e1a92d6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
   
   <title>Ping coming soon page</title>
@@ -11,12 +12,14 @@
 <body>
 
   <main>
-    <img src="/images/logo.svg" alt="Ping Logo">
+    <img src="/images/logo.svg" alt="Ping Logo" class="ping-logo">
 
-    <section class="info-form">
-      <h1>We are launching soon!</h1>
+    <section class="info">
+      <h1>We are launching <span>soon!</span></h1>
       <p>Subscribe and get notified</p>
+    </section>
 
+    <section class="ping-form">
       <form action="">
         <input type="email" name="email" id="email" placeholder="Your email adress...">
         <input type="submit" value="Notify Me">
@@ -26,12 +29,16 @@
     <div class="image-container">
       <img src="/images/illustration-dashboard.png" alt="Dashboard Illustration">
     </div>
-  </main>
 
+    <div class="social-media">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </main>
+  
   <footer>
-    <i class="fab fa-facebook-f"></i>
-    <i class="fab fa-twitter"></i>
-    <i class="fab fa-instagram"></i>
+    
     &copy; Copyright Ping. All rights reserved.
   </footer>
   
