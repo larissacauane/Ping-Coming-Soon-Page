@@ -12,82 +12,75 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Libre Franklin', sans-serif;
 }
 
 body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 main{
+    width: 80%;
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 1.5rem;
+    margin: 0 auto;
+    gap: 1.6rem;
 }
 
-/*===== LOGO =======*/
-main .ping-logo{
-    cursor: pointer;
-    margin: 1rem;
+.logo{
+    width: 7%;
 }
 
-/*======= TEXT =======*/
-main section.info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: .5rem;
+.logo img{
+    margin-top: 3rem;
+    width: 100%;
 }
 
-main section.info h1{
+header{
+    text-align: center;
+}
+
+header h1{
     font-size: 3vw;
     font-weight: 300;
     color: var(--gray);
 }
 
-main section.info h1 span{
+header h1 span{
     font-weight: 600;
     color: var(--very-dark-blue);
 }
 
-main section.info p{
-    font-size: 1.3vw;
+header p {
+    padding-top: .5rem;
+    font-size: 1.2vw;
     font-weight: 400;
-    padding-bottom: 1.5rem;
     color: var(--very-dark-blue);
 }
 
-/*======= FORM =======*/
-main section.ping-form{
-    padding-bottom: 2rem;
-}
-
-main section.ping-form form{
+.ping-form{
     display: flex;
-    gap: .5rem;
+    gap: 1px;
 }
 
-main section.ping-form form input[type="email"]{
-    width: 20rem;
+.ping-form form input[type="email"]{
+    width: 23rem;
     padding: .8rem;
     border-radius: 30px;
     outline: none;
     border: var(--pale-blue) 2px solid;
 }
 
-main section.ping-form form input[type="email"]::placeholder{
+::placeholder{
     color: var(--pale-blue);
 }
 
-main section.ping-form form input[type="email"]:focus{
+.ping-form form input[type="email"]:focus{
     border-color: var(--light-red);
 }
 
-main section.ping-form form input[type="submit"]{
+.ping-form form input[type="submit"]{
     width: 10rem;
     padding: .8rem;
     border-radius: 30px;
@@ -99,31 +92,26 @@ main section.ping-form form input[type="submit"]{
     box-shadow: 3px 3px 10px var(--pale-blue);
     transition: all ease-in-out .3s;
 }
-main section.ping-form form input[type="submit"]:hover{
+.ping-form form input[type="submit"]:hover{
     background-color: var(--pale-blue);
 }
 
-/*====== IMAGE =======*/
 .image-container{
-    max-width: 40%;
+    width: 50%;
 }
 
-.image-container img{
-    max-width: 100%;
+.image-container img {
+    margin-top: 1.5rem;
+    width: 100%;
 }
 
-/*====== SOCIAL MEDIA ICONS =======*/
-
-main .social-media{
+.social-media{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 1rem 0 1rem 0;
-    gap: 1rem;
-    
+    gap: 1.3rem;  
 }
 
-main .social-media .fab{
+.social-media .fab{
     padding: .5rem;
     border: 1px var(--pale-blue) solid;
     border-radius: 50%;
@@ -132,14 +120,14 @@ main .social-media .fab{
     transition: all .3s ease-in-out;
 }
 
-main .social-media .fab:hover{
+.social-media .fab:hover{
     background-color: var(--blue);
     color: white;
 }
 
-/*====== FOOTER ======*/
 footer{
-    font-size: .8rem;
-    color: var(--gray);
+    text-align: center;
+    font-size: 1vw;
+    margin: 1rem 0 1rem 0;
+    color: var(--pale-blue);
 }
-
