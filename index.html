@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <script src="https://kit.fontawesome.com/6a2e1a92d6.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  
-  <title>Ping coming soon page</title>
-</head>
-<body>
-
-  <main>
-    <div class="logo">
-      <img src="/images/logo.svg" alt="Ping Logo" class="ping-logo">
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <header class="info">
-      <h1>We are launching <span>soon!</span></h1>
-      <p>Subscribe and get notified</p>
-    </header>
+    <script
+      src="https://kit.fontawesome.com/6a2e1a92d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/queries.css">    
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
 
-    <section class="ping-form">
-      <form action="">
-        <input type="email" name="email" id="email" placeholder="Your email adress...">
-        <input type="submit" value="Notify Me">
-      </form>
-    </section>
-
-    <div class="image-container">
-      <img src="/images/illustration-dashboard.png" alt="Dashboard Illustration">
+    <title>Ping coming soon page</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="/images/logo.svg" alt="Ping Logo" class="ping-logo" />
     </div>
 
-    <div class="social-media">
-      <i class="fab fa-facebook"></i>
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-instagram"></i>
-    </div>
-  </main>
-  
-  <footer>
-    &copy; Copyright Ping. All rights reserved.
-  </footer>
-  
-</body>
+    <main>
+      <section class="section-ping">
+        <div class="ping">
+          <div class="ping-info-box">
+            <div class="ping-text-box">
+              <h1>We are launching <span>soon!</span></h1>
+              <p>Subscribe and get notified</p>
+            </div>
+
+            <div class="ping-form-box">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your email adress..."
+              />
+              <input type="submit" value="Notify Me" />
+            </div>
+          </div>
+
+          <div class="ping-img-box">
+            <img
+              src="/images/illustration-dashboard.png"
+              alt="Dashboard Illustration"
+            />
+          </div>
+
+          <div class="ping-social-media">
+            <i class="fab fa-facebook social-icon"></i>
+            <i class="fab fa-twitter social-icon"></i>
+            <i class="fab fa-instagram social-icon"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>&copy; Copyright Ping. All rights reserved.</footer>
+  </body>
 </html>
