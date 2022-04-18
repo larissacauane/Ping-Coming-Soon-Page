@@ -11,6 +11,10 @@
   .ping-img-box {
     width: 60%;
   }
+
+  .ping-info-box{
+    width: 70%;
+  }
 }
 
 /*=======================================*/
@@ -24,6 +28,10 @@
 
   .ping-img-box {
     width: 90%;
+  }
+
+  .ping-info-box{
+    width: 80%;
   }
 }
 
