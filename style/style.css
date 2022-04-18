@@ -28,20 +28,15 @@ body {
 /*LOGO*/
 /*=======================================*/
 .logo {
-  
   text-align: center;
   padding-top: 3.2rem;
 }
-
-
 
 /*=======================================*/
 /*PING SECTION*/
 /*=======================================*/
 
-
 .ping {
- 
   max-width: 140rem;
   display: flex;
   flex-direction: column;
@@ -53,12 +48,10 @@ body {
 /*PING INFO*/
 /*=======================================*/
 .ping-info-box {
-  
   padding-top: 4.8rem;
   display: flex;
   flex-direction: column;
   gap: 3.8rem;
-  
 }
 
 /*=======================================*/
@@ -96,7 +89,7 @@ body {
 
 .ping-form-box input[type="email"] {
   display: inline-block;
-  flex-grow:2;
+  flex-grow: 2;
   padding: 1.8rem 2rem;
   font-size: 1.5rem;
   border-radius: 3rem;
@@ -145,7 +138,6 @@ body {
 /*PING IMAGE*/
 /*=======================================*/
 .ping-img-box {
-  
   width: 50%;
 }
 
@@ -178,9 +170,9 @@ body {
 /*=======================================*/
 /*PING FOOTER*/
 /*=======================================*/
-footer{
-    text-align: center;
-    font-size: 1.4rem;
-    margin: 2rem;
-    color: var(--gray);
+footer {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 2rem;
+  color: var(--gray);
 }
